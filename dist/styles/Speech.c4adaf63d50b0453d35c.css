@@ -1,0 +1,70 @@
+ul{list-style-type:none;padding:0}
+p{color:rgb(138, 136, 136)}
+.button___11gZl:focus{outline:0}
+.container___saxCb{display:"flex";flex-direction:"column";justify-content:center;align-items:"center";text-align:"center"}
+.container___saxCb h1{margin-bottom:20px}
+.pageDescription___37Ar6{font-size:1.1rem;margin:0 auto}
+.noBrowserSupport___3XAWR{display:none;font-size:1.2rem;color:rgb(41, 162, 209);margin-top:35px}
+.documentation___3hoRn,.strong___3ytUx{color:#5f9ea0}
+.Speech___30tAq{margin:40px auto}
+button{box-shadow:1px 1px 2px rgba(0,0,0,.7);border:none;cursor:pointer}
+button:hover{background-color: #73a4b4;}
+.deleteAll___1NXIh,.fileSaveButton___NvW4t,.getStorage___3kUh0,.reset___1FIGi,.saveNote___1d_mJ{background:rgb(41, 162, 209);padding:8px;font-size:.8rem;border-radius:3px;color:white;letter-spacing:.07rem}
+.fileSaveButton___NvW4t,.reset___1FIGi,.saveNote___1d_mJ{width:5.7rem;height:2.25rem}
+.deleteAll___1NXIh,.getStorage___3kUh0{width:7.5rem;height:2.25rem}
+.deleteAll___1NXIh,.fileSaveButton___NvW4t,.reset___1FIGi{margin-left:10px}
+.download___2GRhE{text-decoration:none}
+.storagequotaMsg___344nw{color:#5ba1a3}
+.button___11gZl{width:2.5rem;height:2.5rem;background:#add8e6;border-radius:50%;margin:0 2rem;font-size:1.5rem}
+.interim___2U4mr{color:rgb(138, 136, 136)}
+.final___1Pum7,.interim___2U4mr{border:1px solid #5f9ea0;padding:1em;margin:1em auto;max-width:500px;width:90%;text-align:left}
+.final___1Pum7{color:black;display:flex;flex-direction:column;height: 160px;}
+.final___1Pum7{background-image: url('https://lh3.googleusercontent.com/proxy/fyNXYEcp22BpeIaBwk6SVjTbBAuq2xRMvVyJ9TLPXk4EokT8XED00nAGZdH0xM3NAoMQSlOW1GKNsBBJ7agATQnQmCZtzFyPapK7lzibchBAaVpJ9xAx6hpu7ZQwfYQFkq7hx2sfYA');}
+#recording-instructions___1Evml{margin:15px auto 60px}
+h1 {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 0px #0073e6, 0 0 10px #0073e6, 0 0 20px #0073e6, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6;
+    }
+    to {
+      text-shadow: 0 0 10px #0073e6, 0 0 20px #0073e6, 0 0 30px #0073e6, 0 0 40px #0073e6, 0 0 50px #0073e6, 0 0 60px #0073e6, 0 0 70px #0073e6;
+    }
+  }
+  
+ body{
+      background-color: black;
+      color:rgb(138, 136, 136)
+  }
+  h3{
+      color: rgb(138, 136, 136);
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(0, 174, 255);
+    color: white;
+  }

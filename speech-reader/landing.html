@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Voizee</title>
+        <link rel="stylesheet" href="landing.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+
+        <style>
+             body{
+                 font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 background: #36D1DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+             }   
+
+             .header{
+                 position: relative;
+                 height: 100vh;
+             }
+             .header-content h1{
+                 font-size: 55px;
+                 font-weight: bold;
+                 text-transform: capitalize;
+                 color: white;
+                 color: #fff;
+                 text-align: center;
+                }
+                .header-content p{
+                 font-size: 20px;
+                 margin:20px 0 25px;
+                 color: white;
+                 letter-spacing: 1px;
+                 font-weight: 300;
+                 text-transform: capitalize;
+                 text-align: center;
+
+                } 
+                .theme-btn{
+                    border-radius: 30px;
+                    background: white;
+                    padding: 15px 30px;
+                    min-width: 20px;
+                    border: 2px solid grey;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    display: inline-block;
+                    margin-right: 12px;
+                    margin-top: 13px;
+                    transition: all 0.5s ease-in;
+                    color: black;
+                    text-align: center;
+                    margin-left: 80px;
+                }
+
+                .theme-btn:hover{
+                  text-decoration: none;
+                  background-color: grey;
+                  color: white;
+                }
+                .svg{
+                    width: 700px;
+                }
+        </style>
+    </head>
+    <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div style="margin-top: 180px;"></div>
+                        <h1>Voizee!</h1>
+                        <p>One stop solution for Speech-To-Text and Text-To-Speech conversion</p>
+                        <a href="http://127.0.0.1:5501/dist/index.html" class="theme-btn">Get Started</a>
+                    </div>
+                    <div class="col-lg-3">
+                    <div style="margin-top: 80px;"></div>
+                    <img src="svg.svg" class="img-responsive svg" alt="abc">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    </body>
+</html>
